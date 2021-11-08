@@ -1,0 +1,60 @@
+.main {
+  background-color: #1a1924;
+}
+
+.main-container {
+  max-width: 1370px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.novelty {
+  padding-bottom: 30px;
+}
+
+.item-header {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  background-color: #1a1924;
+  cursor: pointer;
+}
+
+.item-header:hover {
+  color: #d7c56b;
+}
+
+.item-text-color {
+  color: white;
+}
+
+.item-header::after {
+  content: url(../../images/vector.png);
+  width: 10px;
+  height: 20px;
+  padding-left: 10px;
+}
+
+.describtion {
+  font-size: 18px;
+  line-height: 21px;
+  color: #c4c4c45b;
+}
+
+.item-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.item-image {
+  width: 170px;
+  height: 250px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+  transition-duration: 1s;
+}
+
+.item-image:hover {
+  transform: scale(1.05);
+}
